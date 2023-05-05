@@ -1,0 +1,17 @@
+#explicando{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    top: 30%;
+    left: 200px;
+    position: absolute;
+    color: rgb(168, 88, 13);
+    padding: 50px;
+    width: 900px;
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(168, 88, 13);
+    font-size: 30px;
+}
