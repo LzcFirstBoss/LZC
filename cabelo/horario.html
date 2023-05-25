@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estetica e Tratamentos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+}
+    
+.box{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 200px;
+}
+    
+h1 {
+    text-align: center;
+}
+    
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+    
+input[type="text"],
+input[type="email"],
+input[type="datetime-local"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+    
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+    
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+  </style>
+<body>
+    <header>
+        <nav>
+            <li><a href="index.html" id="txt1"><img src="iconheader.png" alt="" width="30px"><strong>Estetica e Tratamentos</strong></a></li>
+            <li><a href="horario.html"><strong>Horários</strong></a></li>
+            <li><a href=""><strong>Profissionais</strong></a></li>
+            <li><a href="#mais"><strong>Serviços</strong></a></li>
+            <li><a href="https://www.instagram.com/luyz.phellype/" target="_blank"><strong>Contato</strong></a></li>  
+        </nav>
+    </header>
+    <div class="box">
+        <h1>Marque Seu Horario</h1>
+        <form action="#" method="post">
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="datetime">Data e Hora:</label>
+          <input type="datetime-local" id="datetime" name="datetime" required>
+          <input type="submit" value="Agendar Horário">
+        </form>
+      </div>
+        <footer>
+            <a href="#"><img src="footer/icons8-whatsapp-144.png" alt="" width="20px"> (64)12345678</a><br>
+            <a href="https://www.instagram.com/luyz.phellype/" target="_blank"><img src="footer/icons8-instagram-144.png" alt="" width="20px"> @luyz.Phellype</a><br>
+            <a href="#"><img src="footer/o-email.png" alt="" width="20px"> luyzpim10102@gmail.com</a><br>
+            <p id="direito">Todos os direitos reservados &copy; 2023 Luyz Phellype Carnot Peres</p>
+        </footer>
+</body>
+</html>
